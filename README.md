@@ -53,3 +53,5 @@ Acknowledgments
 Feel free to customize this README based on the specifics of your project. Include any additional sections, such as contributing guidelines, testing instructions, or development notes, as needed.
 
 Happy coding!
+
+![Пример игры в кости](https://png.pngtree.com/background/20231030/original/pngtree-3d-illustration-of-gambling-dice-isolated-on-a-white-background-picture-image_5791118.jpg)
