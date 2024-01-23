@@ -53,7 +53,3 @@ Acknowledgments
 Feel free to customize this README based on the specifics of your project. Include any additional sections, such as contributing guidelines, testing instructions, or development notes, as needed.
 
 Happy coding!
-
-```less
-Make sure that the `LICENSE` file in your project directory contains the actual text of the MIT License. If you haven't created a `LICENSE` file yet, you can use a standard MIT License template, which is available on the [opensource.org](https://opensource.org/licenses/MIT) website.
-```
