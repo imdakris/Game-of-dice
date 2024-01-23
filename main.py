@@ -13,11 +13,13 @@ def dice_roll():
 def img(event):
     """Returns a picture of a cube"""
     global throw1, throw2
-    throw1 = PhotoImage(file=(dice_roll()))
-    throw2 = PhotoImage(file=(dice_roll()))
-    lab1['image'] = throw1
-    lab2['image'] = throw2
-    root.update()
+    for i in range(18):
+        throw1 = PhotoImage(file=(dice_roll()))
+        throw2 = PhotoImage(file=(dice_roll()))
+        lab1["image"] = throw1
+        lab2["image"] = throw2
+        root.update()
+        time.sleep(0.12)
 
 
 root = Tk()
@@ -31,5 +33,6 @@ lab1 = Label(root)
 lab1.place(relx=0.3, rely=0.5, anchor=CENTER)
 lab2 = Label(root)
 lab2.place(relx=0.7, rely=0.5, anchor=CENTER)
-root.bind('<1>', img)
+root.bind("<1>", img)
+img('event')
 root.mainloop()
